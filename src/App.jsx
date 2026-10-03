@@ -3,7 +3,7 @@ import ShowMessage from "./ShowMessage";
 import Counter from "./Counter";
 import UserName from "./UserName";
 import LikeButton from "./LikeButton";
-import Student from "./Student"
+import Login from "./Login";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Counter/>
       <UserName/>
       <LikeButton/>
-      <Student/>
+      <Login/>
       
     </div>
   );
