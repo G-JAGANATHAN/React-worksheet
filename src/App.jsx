@@ -4,6 +4,7 @@ import Counter from "./Counter";
 import UserName from "./UserName";
 import LikeButton from "./LikeButton";
 import Login from "./Login";
+import Email from "./Email";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <UserName/>
       <LikeButton/>
       <Login/>
-      
+      <Email/>
     </div>
   );
 };
