@@ -5,7 +5,8 @@ import UserName from "./UserName";
 import LikeButton from "./LikeButton";
 import Login from "./Login";
 import Email from "./Email";
-import Student from "./Student"
+import StudentData from "./StudentData";
+
 
 const App = () => {
   const name ="jagan";
@@ -18,7 +19,7 @@ const App = () => {
       <LikeButton/>
       <Login/>
       <Email/>
-      <Student name = {name} age = {age}/>
+      <StudentData name = {name} age = {age}/>
     </div>
   );
 };
