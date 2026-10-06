@@ -6,6 +6,7 @@ import LikeButton from "./LikeButton";
 import Login from "./Login";
 import Email from "./Email";
 import StudentData from "./StudentData";
+import Example from "./component/example";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Login/>
       <Email/>
       <StudentData name = {name} age = {age}/>
+      <Example/>
     </div>
   );
 };
